@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+/* HEADER */
+#header {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#header > .header {
+    border: 2px solid red;
+}
+
+.header.right {
+    display: flex;
+    gap: 10px;
+}
+
+.header.left {
+    display: flex;
+    gap: 10px;
+}
+
+/* CONTENT */
+
+#content-first {
+    display: flex;
+    padding: 10px;
+    border: 1px solid greenyellow;
+    gap: 5px;
+}
+
+.content.left {
+    flex: 1;
+    align-items: center;
+    border: 1px solid red;
+
+}
+
+.content.right {
+    flex: 1;
+    align-items: center;
+    border: 1px solid red;
+
+}
+
+#content-second {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border:2px solid magenta;
+    height: 300px;
+    padding: 10px;
+}
+
+#content-second h1 {
+    display: flex;
+    border:2px solid blue;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contentP {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contentP > .photo > img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid orangered;
+    width: 100px;
+    height: 200px;
+    flex: 1;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+}
+
+img {
+    width: 50px;
+    height: 50px; 
+}
+
+#content-third {
+    border: 1px solid goldenrod;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+#content-third blockquote{
+    border: 1px solid gray;
+    /* padding: 20px; */
+}
+
+#content-third cite{
+    border: 1px solid magenta;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#content-fourth {
+    border: 3px solid red;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 30px;
+}
+
+#content-fourth .left{
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 2;
+}
+
+#content-fourth .right{
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+/* FOOTER*/
+footer {
+    border: 2px solid greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
